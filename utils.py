@@ -11,6 +11,7 @@ import time
 import numpy as np
 from multiprocessing import cpu_count
 
+
 def try_gpu(i=0):
     """Return gpu(i) if exists, otherwise return cpu().
 
